@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Your Blog</title>
+    <style>
+        /* Reset and General Styles */
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #6c63ff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4e4dff;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #444;
+        }
+
+        .posts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .post {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        .post img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .post h2 {
+            font-size: 1.5rem;
+            margin: 15px;
+        }
+
+        .post p {
+            margin: 15px;
+            color: #666;
+        }
+
+        .post a {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            background: #6c63ff;
+            color: white;
+            text-decoration: none;
+            margin: 0 15px 15px;
+            border-radius: 5px;
+        }
+
+        .post a:hover {
+            background: #4e4dff;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #6c63ff;
+            color: white;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Blog</h1>
+    <p>Sharing thoughts, stories, and ideas</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+    <section>
+        <h2 class="section-title">Featured Posts</h2>
+        <div class="posts">
+            <div class="post">
+                <img src="post1.jpg" alt="Post 1">
+                <h2>Post Title 1</h2>
+                <p>Short description of the blog post goes here. Click below to read more.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post">
+                <img src="post2.jpg" alt="Post 2">
+                <h2>Post Title 2</h2>
+                <p>Short description of the blog post goes here. Click below to read more.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post">
+                <img src="post3.jpg" alt="Post 3">
+                <h2>Post Title 3</h2>
+                <p>Short description of the blog post goes here. Click below to read more.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Recent Posts</h2>
+        <div class="posts">
+            <div class="post">
+                <img src="recent1.jpg" alt="Recent Post 1">
+                <h2>Recent Title 1</h2>
+                <p>Quick summary or teaser for the recent post.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post">
+                <img src="recent2.jpg" alt="Recent Post 2">
+                <h2>Recent Title 2</h2>
+                <p>Quick summary or teaser for the recent post.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post">
+                <img src="recent3.jpg" alt="Recent Post 3">
+                <h2>Recent Title 3</h2>
+                <p>Quick summary or teaser for the recent post.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2024 Your Blog Name. All Rights Reserved. | <a href="#privacy">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
